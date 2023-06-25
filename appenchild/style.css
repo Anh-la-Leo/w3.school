@@ -1,0 +1,73 @@
+.navbar{
+    position: fixed;width: 100%;z-index: 20;
+}
+  .navbar:hover{
+    background-color: rgba(0,0,0,.15);
+  }
+    a{
+        text-decoration: none;
+        color: white; padding: 0 14px;
+    }
+    a:hover{
+      color: white;
+    }
+    li{
+      color: #fff;
+      list-style: none;
+    }
+    .drop {
+      background-color: #fff;
+      padding-left: 0;
+    }
+    .drop li{
+      color: black;
+      padding: 7px 16px;
+    }
+    .width{
+      max-width: 1200px;
+      padding: 0 15px 0 15px;
+      margin: auto;
+    }
+    .top_bot{
+      padding: 11.42857142856rem 16px;
+    }
+    .nav-link{
+      font-size: 12px;
+    }
+    .form_input{
+      font-size: 10px;
+      color: #aaa;
+      margin-top: 10px;
+    }
+    .diplayBlock{
+      display: block !important;
+    }
+    .mt-3 input{
+      border-bottom: 2px solid rgb(204, 200, 200);
+      outline: none;
+    }
+    #contact-tab:hover{
+      background-color: #dad5d5 !important;
+    }
+    .search-container {
+position: relative;
+display: inline-block;
+width: 100%;
+}
+
+.search-icon {
+position: absolute;
+right: 8px;
+top: 50%;
+transform: translateY(-50%);
+pointer-events: none;
+}
+
+.search-icon i {
+width: 16px;
+height: 16px;
+}
+
+.search-input {
+padding: 12px 20px;width: 100%;
+}
